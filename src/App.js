@@ -62,7 +62,7 @@ function App() {
 					<Switch>
 						<Route
 							exact
-							path="https://ssp4all.github.io/react-todolist/"
+							path="/react-todolist"
 							render={(props) => (
 								<>
 									<AddTodo addTask={addTask} />
