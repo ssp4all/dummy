@@ -79,7 +79,7 @@ function App() {
 								</>
 							)}
 						/>
-						<Route path="https://ssp4all.github.io/react-todolist/about" component={About}/>
+						<Route path="/react-todolist/about" component={About}/>
 						<Route component={NotFoundPage} />
 					</Switch>
 
