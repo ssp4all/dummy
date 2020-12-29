@@ -13,8 +13,18 @@ const AddTodo = ( { addTask } ) => {
     return (
         <div>
             <form>
-                <input type="text" name="taskVal" placeholder="Type here" value={ taskValue } onChange={(event) => setTaskValue(event.target.value)} />
-                <input type="button" value="Add" onClick={ () => addTask(taskValue, setTaskValue) }/>
+                <input 
+                    type="text" 
+                    name="taskVal" 
+                    placeholder="Type here" 
+                    value={ taskValue } 
+                    onChange={(event) => setTaskValue(event.target.value)} 
+                />
+                <input 
+                    type="button" 
+                    value="Add" 
+                    onClick={ () => addTask(taskValue, setTaskValue) }
+                />
             </form>
         </div>
 
