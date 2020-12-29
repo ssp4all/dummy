@@ -10,10 +10,10 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/react-todolist" > Home </Link>
+                            <Link to="./react-todolist" > Home </Link>
                         </li>
                         <li>
-                            <Link to="/react-todolist/about"> About </Link>
+                            <Link to="./react-todolist/about"> About </Link>
                         </li>
                     </ul>
                 </nav>
