@@ -1,6 +1,12 @@
 import React, { useState }  from 'react';	
+// import PropTypes from 'prop-types';
 
 const AddTodo = ( { addTask } ) => {
+    
+    // AddTodo.PropTypes = {
+    //     addTask:    propTypes.func.isRequired,
+    //     // addTask:    propTypes.array.isRequired,
+    // }
 
     const [taskValue, setTaskValue] = useState("");
 
@@ -13,6 +19,9 @@ const AddTodo = ( { addTask } ) => {
         </div>
 
     );
+
+
 }
+
 
 export default AddTodo;
