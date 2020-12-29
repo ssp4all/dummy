@@ -62,7 +62,7 @@ function App() {
 					<Switch>
 						<Route
 							exact
-							path="/"
+							path="https://ssp4all.github.io/react-todolist/"
 							render={(props) => (
 								<>
 									<AddTodo addTask={addTask} />
@@ -79,7 +79,7 @@ function App() {
 								</>
 							)}
 						/>
-						<Route path="/about" component={About} exact />
+						<Route path="https://ssp4all.github.io/react-todolist/about" component={About} exact />
 						<Route component={NotFoundPage} />
 					</Switch>
 
